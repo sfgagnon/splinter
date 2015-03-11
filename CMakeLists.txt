@@ -91,14 +91,13 @@ set(STATIC_LIBRARY splinter-static-${SPLINTER_VERSION})
 set(SHARED_LIBRARY_TEST "splinter-shared-test")
 set(STATIC_LIBRARY_TEST "splinter-static-test")
 set(SERIALIZE_TEST "splinter-serialize-test")
+set(CATCH_TEST "test")
 
 set(TEST_SRC_LIST
 test/test_runner.cpp
 test/datatable.cpp
 test/testingutilities.cpp
 )
-
-set(CATCH_TEST "test")
 
 set(TESTING_UTILITIES ${CMAKE_CURRENT_SOURCE_DIR}/test/testingutilities.cpp)
 

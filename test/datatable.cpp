@@ -3,7 +3,7 @@
 #include "datatable.h"
 #include "serialize.h"
 
-using namespace MultivariateSplines;
+using namespace Splinter;
 
 
 TEST_CASE("DataTable save and load case 1", "[saveload]") {

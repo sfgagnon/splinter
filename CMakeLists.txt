@@ -126,6 +126,8 @@ set(SRC_LIST
     include/mykroneckerproduct.h
     include/pspline.h
     include/radialbasisfunction.h
+    include/radialbasisfunctionterm.h
+    include/ordinaryleastsquares.h
     include/serialize.h
     src/bspline.cpp
     src/bsplinebasis.cpp
@@ -135,6 +137,7 @@ set(SRC_LIST
     src/mykroneckerproduct.cpp
     src/pspline.cpp
     src/radialbasisfunction.cpp
+    src/ordinaryleastsquares.cpp
 )
 set(MATLAB_SRC_LIST ${SRC_LIST} include/matlab.h src/matlab.cpp)
 
